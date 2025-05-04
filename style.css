@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Tagesschrift", system-ui;
+    background-color: lightgoldenrodyellow;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.name {
+    color: chocolate;
+}
+
+#heart {
+    width: 150px;
+    height: 150px;
+    animation: scaleup 2s ease-in-out infinite;
+}
+
+#ig {
+    color: white;
+    background-color: crimson;
+}
+
+@keyframes scaleup {
+    0% {
+        transform: scale(100%);
+    }
+
+    50% {
+        transform: scale(110%);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}
